@@ -1,4 +1,4 @@
-# WooCommerce INR Symbol
+# Indian Currency (INR) Symbol for Woocommerce
 Wordpress Plugin to display fontawesome INR currency symbol
 
 This plugin enable fontawesome based Indian Rupee symbol for stores using Indian currency (INR).
