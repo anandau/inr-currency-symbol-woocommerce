@@ -26,13 +26,13 @@ if ( isset( $woocommerce ) || ! function_exists( 'WC' ) ) {
      *  Load fontawesome on frontend
      */
     function wics_add_scripts(){
-        echo '<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />';
+       wp_enqueue_style('font-awesome','https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css');
     }
     add_action('wp_head', 'wics_add_scripts');
 
 
     function wics_add_admin_scripts(){
-        echo '<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />';
+        wp_enqueue_style('font-awesome','https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css');
     }
     add_action('admin_enqueue_scripts', 'wics_add_admin_scripts');
     /**
